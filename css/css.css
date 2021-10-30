@@ -1,0 +1,149 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --preto: rgb(22, 21, 21) ;
+    --vermelho: rgb(233, 0, 0);
+    --branco: #fff;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: var(--preto);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+header .barra{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0%;
+}
+
+
+
+
+header nav a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--branco);
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+header nav a:hover{
+    color: aqua;
+}
+h2.logo{
+    padding: 10px;
+}
+header h2 a{
+    text-decoration: none;
+    color: var(--vermelho);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filme-principal{
+    color: var(--branco);
+    height: 400px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo{
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.descricao{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
+}
+.imagem-livros{
+    width: 100%;
+    height: 70%;
+    margin: 0%;
+}
+.filme-principal .barra{
+    margin: 0%;
+}
+.imagem-central{
+    width: 50%;
+    float: right;
+    margin-top: 100px;
+}
+.cabecario-principal{
+    width: 50%;
+    float: left;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--branco);
+    padding: 15px 50px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-left: 20px;
+
+}
+
+.botao:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+}
+.titulo-secao{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.livros-carrosel{
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+}
+.quem-assistindo{
+    color: #fff;
+}
+.escolha-fotos{
+    display: flex;
+    margin: 5%;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.usuario img{
+    width: 200px;
+    height: 200px;
+}
+.usuario{
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    justify-content: space-between;
+}
+.escolha-usuario{
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
